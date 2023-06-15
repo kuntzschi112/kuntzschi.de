@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)file:///C:/Users/janni/OneDrive/Desktop/one%20month%20Javascript/week1/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Oprah Likes You. And so do other people.</title>
+
+    <style>
+
+        /* Basic CSS comment */
+        body {
+            background: #BBB;
+            color: white;
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 80px;
+            color: #333;
+        }
+    </style>
+    <script>
+        //Prompt 
+        var username = prompt("Hello, whats your name?");
+        var car = ["BMW", "Saab", "Maserati"];
+    //randomNumber
+        const min = 0;
+        const max = 2;
+        const randomNumber = Math.floor(Math.random() * (max - min + 1));
+                      
+        //hello...
+        console.log(car);
+        console.log(car);
+        if (username === "Chris" || username === "Jannick") {
+            document.write("<h1>Hello, " + username + " you won a " + car[randomNumber] + "!</h1>");
+
+            // Auto_bilder
+            if (car[randomNumber] === "BMW") {
+                document.write('<img src="BMW.jpg"/>');
+            } else if (car[randomNumber] === "Saab") {
+                document.write('<img src="Saab.jpg"/>');
+            } else if (car[randomNumber] === "Maserati") {
+                document.write('<img src="Maserati.jpg"/>');
+            }
+        } else {
+            document.write("<h1>Hello " + username + "!<h1>");
+        }
+
+    </script>
+</head>
+
+<body>
+    <img src="oprah-winfrey.jpg" alt="Oprah"> 
+   
+</body>
+</html>
