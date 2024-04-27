@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Überprüfungsdatei für Domänen-Eigentümerschaft für Microsoft 365-Position im Website-Root",
+  "Domain": "toxic-jannick.github.io",
+  "Id": "f457a610-0c12-4baf-a6b4-dd49c9979bb2"
+}
